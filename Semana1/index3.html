@@ -1,0 +1,101 @@
+<!-- Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Leonan Dias De Morais - 2110744
+DATA 28/03/2023
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tabelas</title>
+    <meta charset="UTF-8"> 
+    <style>
+      /* Estilo da borda da tabela */
+      table {
+        border-collapse: collapse;
+        border: 2px solid black;
+        width: 100%;
+      }
+      /* Estilo das células da tabela */
+      th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+      /* Estilo das células de cabeçalho da tabela */
+      th {
+        background-color: #dddddd;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+    <!--O corpo do pagina e incluindo dados-->
+  <body>
+    <h1>Tabela de gerenciamento de bolsas</h1>
+    <h2>Dados dos bolsistas</h2>
+    <table>
+      <tr>
+        <th>Nome</th>
+        <th>Sobrenome</th>
+        <th>Idade</th>
+      </tr>
+      <tr>
+        <td>João</td>
+        <td>Silva</td>
+        <td>35</td>
+      </tr>
+      <tr>
+        <td>Maria</td>
+        <td>Souza</td>
+        <td>28</td>
+      </tr>
+    </tr>
+    <tr>
+      <td>Eduardo</td>
+      <td>Souza</td>
+      <td>45</td>
+    </tr>
+    </table>
+    <h2>Bolsas</h2>
+    <table>
+      <tr>
+        <th>Nome da bolsa</th>
+        <th>Preço</th>
+        <th>AnoSemestre</th>
+      </tr>
+      <tr>
+        <td>OVG</td>
+        <td>R$ 650,90</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>ProUni</td>
+        <td>R$ 1212,07</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Graduação</td>
+        <td>R$ 500,90</td>
+        <td>3</td>
+      </tr>
+    </table>
+    <h2>Bolsas</h2>
+    <table>
+      <tr>
+        <th colspan="2">Quantidade de alunos em cada bolsa</th>
+      </tr>
+      <tr>
+        <td>OVG </td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>ProUni</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Graduação</td>
+        <td>1</td>
+      </tr>
+    </table>
+  </body>
+</html>
