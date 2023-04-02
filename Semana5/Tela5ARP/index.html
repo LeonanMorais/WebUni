@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Agendamento de Consultas</title>
+    <link rel="stylesheet" href="style4.css">
+  </head>
+  <body>
+    <header>
+      <h1>Agendamento de Consultas</h1>
+    </header>
+    <main>
+      <h2>Agende sua consulta</h2>
+      <form>
+        <div class="form-group">
+          <label for="data">Data:</label>
+          <input type="date" id="data" name="data">
+        </div>
+        <div class="form-group">
+          <label for="horario">Horário:</label>
+          <select id="horario" name="horario">
+            <option value="8">8h</option>
+            <option value="9">9h</option>
+            <option value="10">10h</option>
+            <option value="11">11h</option>
+            <option value="14">14h</option>
+            <option value="15">15h</option>
+            <option value="16">16h</option>
+            <option value="17">17h</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="medico">Médico:</label>
+          <select id="medico" name="medico">
+            <option value="dr-john">Dr. John</option>
+            <option value="dra-maria">Dra. Maria</option>
+            <option value="dr-jose">Dr. José</option>
+            <option value="dra-ana">Dra. Ana</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="tipo">Tipo de consulta:</label>
+          <select id="tipo" name="tipo">
+            <option value="clinico">Clínico geral</option>
+            <option value="pediatra">Pediatra</option>
+            <option value="dermatologista">Dermatologista</option>
+            <option value="cardiologista">Cardiologista</option>
+          </select>
+        </div>
+        <button type="submit">Agendar consulta</button>
+        <div class="form-group">
+          <label for="search">Pesquisar:</label>
+          <input type="text" id="search" name="search" placeholder="Nome ou CPF">
+        </div>
+        <button type="submit">Consultar</button>
+      </form>
+      <div class="form-group">
+        <label for="date">Filtrar por data:</label>
+        <input type="date" id="date" name="date">
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Paciente</th>
+            <th>Médico</th>
+            <th>Data</th>
+            <th>Horário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>João Silva</td>
+            <td>Dr. José Oliveira</td>
+            <td>01/01/2022</td>
+            <td>14:00</td>
+          </tr>
+          <tr>
+            <td>Maria Souza</td>
+            <td>Dra. Ana Santos</td>
+            <td>02/01/2022</td>
+            <td>10:00</td>
+          </tr>
+          <tr>
+            <td>Carlos Santos</td>
+            <td>Dr. Ricardo Fernandes</td>
+            <td>03/01/2022</td>
+            <td>16:00</td>
+          </tr>
+        </tbody>
+      </table>
+      <form>
+        <div class="form-group">
+          <label for="medicamento">Novo Medicamento:</label>
+          <input type="text" id="medicamento" name="medicamento">
+        </div>
+        <button type="submit">Adicionar</button>
+      </form>
+      <div class="medicamentos">
+        <ul>
+          <li>
+            Paracetamol
+            <button class="remover">Remover</button>
+          </li>
+          <li>
+            Dipirona
+            <button class="remover">Remover</button>
+          </li>
+          <li>
+            Ibuprofeno
+            <button class="remover">Remover</button>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>

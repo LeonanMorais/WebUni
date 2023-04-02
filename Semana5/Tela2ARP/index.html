@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Agendamento de Consultas</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Agendamento de Consultas</h1>
+    </header>
+    <main>
+      <h2>Agende sua consulta</h2>
+      <form>
+        <div class="form-group">
+          <label for="data">Data:</label>
+          <input type="date" id="data" name="data">
+        </div>
+        <div class="form-group">
+          <label for="horario">Horário:</label>
+          <select id="horario" name="horario">
+            <option value="8">8h</option>
+            <option value="9">9h</option>
+            <option value="10">10h</option>
+            <option value="11">11h</option>
+            <option value="14">14h</option>
+            <option value="15">15h</option>
+            <option value="16">16h</option>
+            <option value="17">17h</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="medico">Médico:</label>
+          <select id="medico" name="medico">
+            <option value="dr-john">Dr. John</option>
+            <option value="dra-maria">Dra. Maria</option>
+            <option value="dr-jose">Dr. José</option>
+            <option value="dra-ana">Dra. Ana</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="tipo">Tipo de consulta:</label>
+          <select id="tipo" name="tipo">
+            <option value="clinico">Clínico geral</option>
+            <option value="pediatra">Pediatra</option>
+            <option value="dermatologista">Dermatologista</option>
+            <option value="cardiologista">Cardiologista</option>
+          </select>
+        </div>
+        <button type="submit">Agendar consulta</button>
+      </form>
+    </main>
+  </body>
+</html>
