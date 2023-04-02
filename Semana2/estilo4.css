@@ -1,0 +1,50 @@
+/* Define a fonte padrão */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Define as cores para o título principal */
+  h1 {
+    color: #003366;
+  }
+  
+  /* Define as cores e espaçamentos para os parágrafos */
+  p {
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Define as cores e espaçamentos para os títulos de seção */
+  h2 {
+    color: #666;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  /* Define as cores e espaçamentos para as listas */
+  ul {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Define as cores e espaçamentos para os itens de lista */
+  li {
+    line-height: 1.5;
+  }
+  
+  /* Define as cores e espaçamentos para os links */
+  a {
+    color: #003366;
+    text-decoration: none;
+  }
+  
+  /* Define o estilo para a imagem */
+  img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    }
