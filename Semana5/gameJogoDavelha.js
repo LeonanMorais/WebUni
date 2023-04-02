@@ -1,3 +1,8 @@
+//Curso de Engenharia de Software - UniEVANGÉLICA 
+//Disciplina de Programação Web 
+//Dev: Leonan Dias De Morais - 2110744
+//DATA: 30/03/2023
+
 import React, { useState } from 'react';
 
 const TicTacToe = () => {
