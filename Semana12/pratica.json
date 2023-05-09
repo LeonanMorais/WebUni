@@ -1,0 +1,16 @@
+{
+    "id": 1,
+    "nome": "João",
+    "idade": 20,
+    "bolsa_de_estudos": {
+      "id": 1,
+      "nome": "Bolsa Integral",
+      "descricao": "Bolsa que cobre 100% das mensalidades",
+      "valor": 0.0
+    },
+    "universidade": {
+      "id": 1,
+      "nome": "Universidade Federal de São Paulo",
+      "endereco": "Rua Tal, nº 123"
+    }
+  }
