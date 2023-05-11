@@ -1,0 +1,15 @@
+
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Leonan Dias De Morais - 2110744
+DATA: 10/05/2023
+
+Imagine que você está indo para a universidade e precisa de uma bolsa de estudos para pagar sua mensalidade. Para conseguir essa bolsa, você precisa se comunicar com diferentes departamentos dentro da universidade.
+
+O departamento de frontend seria responsável por cuidar da interface com o aluno, ou seja, da comunicação direta com você. Esse departamento é como a recepção da universidade, que cuida da sua inscrição, verifica seus documentos e responde às suas perguntas sobre a bolsa.
+
+Já o departamento de backend é responsável por cuidar de todas as atividades que ocorrem nos bastidores, sem que você perceba. Esse departamento é como a administração da universidade, que lida com a parte financeira da bolsa, processa as solicitações e aprova o seu pedido.
+
+Por fim, a API REST seria como um canal de comunicação entre esses dois departamentos, permitindo que eles se comuniquem e trabalhem juntos. É como se a universidade tivesse um sistema automatizado que permite que a recepção (frontend) e a administração (backend) troquem informações e dados sobre sua bolsa de estudos.
+
+Assim como esses departamentos trabalham juntos para fornecer a você uma bolsa de estudos, o frontend, backend e a API REST trabalham juntos para fornecer um aplicativo web ou móvel funcional. O frontend fornece a interface para o usuário interagir com o aplicativo, o backend processa as solicitações do usuário e a API REST permite que os dois departamentos se comuniquem para fornecer uma experiência perfeita e sem interrupções.
