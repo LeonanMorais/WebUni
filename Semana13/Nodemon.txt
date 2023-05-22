@@ -1,0 +1,25 @@
+
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Leonan Dias De Morais - 2110744
+DATA: 21/05/2023
+
+O Nodemon é uma ferramenta de desenvolvimento para aplicativos Node.js que monitora automaticamente as alterações nos arquivos do projeto e reinicia o servidor sempre que um arquivo é modificado. Ele oferece uma maneira conveniente de desenvolver e testar aplicativos Node.js sem a necessidade de reiniciar manualmente o servidor a cada alteração feita no código.
+
+Aqui estão algumas características e vantagens do Nodemon:
+
+Monitoramento de alterações: O Nodemon monitora os arquivos do projeto em busca de alterações. Sempre que um arquivo é modificado, ele reinicia automaticamente o servidor, permitindo que as alterações no código sejam refletidas instantaneamente.
+
+Reinicialização rápida: O Nodemon possui uma reinicialização rápida, permitindo que o servidor seja reiniciado em questão de milissegundos. Isso economiza tempo e torna o processo de desenvolvimento mais ágil.
+
+Suporte a diferentes tipos de arquivo: O Nodemon pode monitorar alterações em arquivos JavaScript, JSON, HTML, CSS, entre outros. Isso torna a ferramenta versátil e adequada para diferentes tipos de projetos.
+
+Opções de configuração flexíveis: O Nodemon oferece várias opções de configuração, permitindo personalizar o comportamento da ferramenta de acordo com as necessidades do projeto. É possível definir quais arquivos devem ser monitorados, ignorar determinados arquivos ou diretórios, e especificar ações adicionais a serem executadas após a reinicialização do servidor.
+
+No entanto, também é importante mencionar algumas desvantagens potenciais do Nodemon:
+
+Consumo de recursos: O Nodemon pode consumir uma quantidade adicional de recursos do sistema, especialmente quando o projeto é grande e envolve muitos arquivos. Isso pode levar a um aumento no consumo de CPU e memória.
+
+Dependência adicional: O Nodemon é uma dependência adicional que precisa ser instalada no projeto. Embora seja uma ferramenta amplamente utilizada e bem mantida, adiciona um nível extra de complexidade e dependência ao ambiente de desenvolvimento.
+
+Em resumo, o Nodemon é uma ferramenta útil para o desenvolvimento de aplicativos Node.js, oferecendo monitoramento de alterações automático e reinicialização rápida do servidor. Ele pode melhorar a produtividade durante o desenvolvimento, permitindo que as alterações sejam testadas e visualizadas instantaneamente. No entanto, é importante estar ciente das possíveis desvantagens, como o consumo adicional de recursos e a dependência adicional.
