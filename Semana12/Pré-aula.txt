@@ -1,0 +1,27 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: Leonan Dias De Morais - 2110744
+DATA: 21/05/2023
+
+ 
+
+Entidade: Estudante
+
+Relacionamentos:
+Muitos para muitos com a entidade Bolsa de Estudos: Um estudante pode se candidatar a várias bolsas de estudos, e uma bolsa de estudos pode ter vários estudantes candidatos.
+Um para muitos com a entidade Curso: Um estudante pode estar matriculado em um único curso, enquanto um curso pode ter vários estudantes matriculados.
+Um para muitos com a entidade Universidade: Um estudante pode estudar em uma única universidade, enquanto uma universidade pode ter vários estudantes.
+Entidade: Bolsa de Estudos
+
+Relacionamentos:
+Muitos para muitos com a entidade Estudante: Como mencionado anteriormente, uma bolsa de estudos pode ter vários estudantes candidatos, e um estudante pode se candidatar a várias bolsas de estudos.
+Um para muitos com a entidade Universidade: Uma bolsa de estudos pode ser oferecida por uma única universidade, mas uma universidade pode oferecer várias bolsas de estudos.
+Entidade: Curso
+
+Relacionamentos:
+Um para muitos com a entidade Estudante: Um curso pode ter vários estudantes matriculados, mas um estudante está matriculado em um único curso.
+Entidade: Universidade
+
+Relacionamentos:
+Um para muitos com a entidade Estudante: Uma universidade pode ter vários estudantes, mas um estudante estuda em uma única universidade.
+Um para muitos com a entidade Bolsa de Estudos: Uma universidade pode oferecer várias bolsas de estudos, mas uma bolsa de estudos é oferecida por uma única universidade.
