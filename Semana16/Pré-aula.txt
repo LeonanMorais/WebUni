@@ -1,0 +1,33 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Programação Web
+Dev: Leonan Dias De Morais
+DATA: 27/06/2023
+
+O processo de autenticação entre duas aplicações envolve o estabelecimento da identidade de um usuário ou serviço em uma aplicação (chamada de aplicação cliente) para acessar recursos protegidos por outra aplicação (chamada de aplicação servidor). Existem várias abordagens para esse processo, mas vou explicar um exemplo comum de autenticação usando tokens de acesso (Access Tokens) e um fluxo baseado em solicitação e resposta.
+
+Solicitação de Autenticação:
+
+O usuário acessa a aplicação cliente e fornece suas credenciais (como nome de usuário e senha) ou usa algum outro método de autenticação (como autenticação social).
+A aplicação cliente recebe as credenciais e envia uma solicitação de autenticação para a aplicação servidor, geralmente por meio de uma API.
+Verificação das Credenciais:
+
+A aplicação servidor recebe a solicitação de autenticação e verifica as credenciais fornecidas. Isso pode envolver consultar um banco de dados para verificar se o nome de usuário e a senha são válidos.
+Geração do Token de Acesso:
+
+Se as credenciais forem válidas, a aplicação servidor gera um token de acesso (Access Token). Esse token é uma representação criptografada das informações de autenticação do usuário e pode conter informações como identificador do usuário, permissões, prazo de validade, etc.
+Envio do Token de Acesso:
+
+A aplicação servidor envia o token de acesso de volta para a aplicação cliente como resposta à solicitação de autenticação.
+Armazenamento do Token de Acesso:
+
+A aplicação cliente armazena o token de acesso em um local seguro, como no armazenamento local (localStorage) do navegador ou em um cookie.
+Inclusão do Token de Acesso em Requisições Posteriores:
+
+A partir desse ponto, sempre que a aplicação cliente precisar fazer uma solicitação à aplicação servidor para acessar um recurso protegido, ela inclui o token de acesso nas cabeçalhos HTTP ou em outro método apropriado para autenticação (como no caso do token Bearer para autenticação via JWT).
+Verificação e Validação do Token de Acesso:
+
+A aplicação servidor recebe a solicitação contendo o token de acesso e verifica se o token é válido e confiável.
+Isso pode envolver a verificação da assinatura digital do token, a consulta de informações adicionais do token (como permissões) e a verificação do prazo de validade do token.
+Processamento da Requisição:
+
+Se o token de acesso for válido, a aplicação servidor processa a solicitação normalmente, considerando o usuário autenticado. Caso contrário, a aplicação servidor retorna um erro de autenticação ou acesso negado.
